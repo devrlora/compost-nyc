@@ -1,4 +1,4 @@
-## Navbar Component - stateful
+## Navbar Component - stateless
 
 ### Route my 3 page components without re-rendering with each click on same page
 ### Use 'exact' to prevent multiple pages loading  
@@ -20,5 +20,16 @@
 ### Since I was not able to render the api results in this component, I used the Borough component to render a hard-coded result.
 
 ## Borough Component - stateful
-### 
+
+### State is empty, and should change setState to an matching object from the api array objects. Used a hardcoded index to render a result instead.
+
+## Zip Component - stateful
+### Makes a call to the api and renders a zip code element matching the query.
+### Like the borough component, since I could not render the api properly, I hardcoded a search result instead.
+
+## About Component - stateless
+### A component that renders a div containing text.
+### Its contents are routed to the Navbar component.
+
+
 
