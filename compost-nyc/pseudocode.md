@@ -27,9 +27,22 @@
 ### Makes a call to the api and renders a zip code element matching the query.
 ### Like the borough component, since I could not render the api properly, I hardcoded a search result instead.
 
+## SignUp Component - stateless
+### This component redirects user to an external link on click.
+
+
 ## About Component - stateless
 ### A component that renders a div containing text.
 ### Its contents are routed to the Navbar component.
+
+## SignUpText Component - stateless
+### Instead of add a large piece of text in a div in SignUp component, 
+### rendered text from this function and passed it in the parent component.
+
+## Footer Component - stateless
+### Function that is self updating the copyright year and passed into App.js component to be able to render across all routed pages.
+
+
 
 
 

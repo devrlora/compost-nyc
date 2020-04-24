@@ -3,7 +3,6 @@ import '../styling/Footer.css';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
-// Add self updating copyright date
     return (
         <div className='footer-container'>
             <div className='footer'>
