@@ -22,14 +22,13 @@ export class Borough extends Component {
         close: data[3].hours_from
     })
     
-    // console.log(data[0]);
-
         }
     render() {
         return (
             <div>
-                <h1>{this.state.site} - {this.state.location} Open from : {this.state.open} to {this.state.close}</h1>
-          
+                <h1>{this.state.site} - {this.state.location} 
+                    Open from : {this.state.open} to {this.state.close}
+                </h1>
             </div>
         )
     }
