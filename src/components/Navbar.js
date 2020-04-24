@@ -11,13 +11,11 @@ export class Navbar extends Component {
         return (
             <div>
                 <nav className = 'Nav-bar'>
-                    {/*  add Navlink styling to showcase each active link */}
                     <NavLink activeClassName = 'active-tab' to = '/locations'>Locations</NavLink>
                     <NavLink activeClassName = 'active-tab' to = '/SignUp'>Sign Up</NavLink>
                     <NavLink activeClassName = 'active-tab' to = '/about'>About</NavLink>
                     </nav>
                 <Switch>
-                    {/* use 'exact' to prevent multiple pages loading */}
                     <Route exact path ='/locations' component={Locations} />
                     <Route exact path ='/SignUp' component={SignUp} />
                     <Route exact path ='/about' component={About} />
