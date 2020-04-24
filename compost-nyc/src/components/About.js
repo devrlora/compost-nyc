@@ -7,7 +7,8 @@ export class About extends Component {
             <div className = 'statement-container'>
                 <h1>Mission Statement Goes here:</h1>
                 <p>This app is meant to be a search tool for users to 
-                find available site in NYC for dropping off their food scraps.</p>
+                find available site in NYC for dropping off their food scraps.
+                </p>
             </div>
         )
     }
