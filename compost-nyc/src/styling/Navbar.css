@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    color:White;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+h1{
+    color:#4f98ca;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* Adds a highlight when then element is selected */
+.active-tab{
+    color: white;
+    font-size: larger;
+    border-bottom: 1px solid white;
+}
+
+
+.Nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../images/compost.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    font-size: large;
+}

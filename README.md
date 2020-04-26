@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,35 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Compost-NYC App
+
+# Problem Statement
+## An app that locates food scrap drop off locations by borough and hours of operation.
+
+# Target User
+## New York City residents who do not have compost pick up available in their building.
+
+# Api used:
+## https://data.cityofnewyork.us/resource/if26-z6xq.json
+
+# Install:
+## npm install react-router-dom
+## npm install axios
+
+# Resources Used:
+## https://alligator.io/react/live-search-with-axios/
+
+# Wireframe
+## 4 Stateful components:
+
+### Borough, Locations, Search, , Zip
+
+## 5 Stateless components:
+### About, Footer, Navbar, SignUp, SignUpText
+
+ ![Location Page](https://github.com/devrlora/compost-nyc/blob/master/compost-nyc/wireframe/Page1%20-%20Location.png "Location Page 1")
+ ![Sign Up Page](https://github.com/devrlora/compost-nyc/blob/master/compost-nyc/wireframe/Page2%20-%20Signup.png "Sign Up Page 2")
+ ![About](https://github.com/devrlora/compost-nyc/blob/master/compost-nyc/wireframe/Page3%20-%20About.png "About Page 3")
+
+>>>>>>> b0e0235aed9e21e586d4e9e96cc48905cf4792ae
